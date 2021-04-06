@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="contact-form">
+        <form action="#" method="POST" enctype="multipart/form-data">
+
+                <div class="input-box1">
+                    <label for="first-name">Enter Your Name: *</label><br>
+                    <i class="fas fa-user-alt"></i>
+                    <input type="text" name="first-name" id="first-name" class="first-name" placeholder="First name" required >
+                    <input type="text" name="last-name" id="last-name" class="last-name" placeholder="Last name" required > <br>
+                </div>
+
+                <div class="input-box2">
+                    <label for="email">Enter Your Email: *</label><br>
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" id="email" class="email" placeholder="example@mail.com" required><br>
+                </div>
+
+                <div class="input-box3">                 
+                    <label for="password">Enter Your Password: *</label><br>
+                    <i class="fas fa-unlock-alt"></i>
+                    <input type="password" name="password" id="password" class="password" placeholder="Password" required><br>
+                </div>
+
+                <div class="input-box4">
+                    <label for="phone">Enter Your Phone Number: *</label><br>
+                    <i class="fas fa-phone-alt"></i>
+                    <input type="tel" name="phone" id="phone" class="phone" placeholder="+880 - 1*********" required><br>
+                </div>
+
+                <div class="input-box5">
+                    <label for="address">Enter Your Address(optional):</label><br>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" name="address" id="address" class="address" placeholder="Your address" required><br>
+                </div>
+
+                <div class="input-box6">
+                    <label for="birthday">Date of Birth(optional):</label><br>
+                    <input type="date" id="birthday" name="birthday" required><br>
+                </div>
+                
+                <div class="input-box7">
+                    <label style="font-family: 'Open Sans', sans-serif;font-weight: 700; color: rgb(10, 10, 77) !important; ">Select gender(optional):</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br>
+                </div>
+
+                <div class="input-box8">
+                    <label for="skills">Choose Your Area of Interest: *</label> <br>
+                    <select name="skills" id="skills">
+                      <option value="webdesign">Web Design</option>
+                      <option value="webdevelopment">Web Development</option>
+                      <option value="graphics">Graphics Design</option>
+                      <option value="marketing">Digital Marketing</option>
+                      <option value="php">PHP Programming</option>
+                      <option value="python">Python Programming</option>
+                      <option value="Java">Java Programming</option>
+                      <option value="C">C Programming</option>
+                      <option value="cplusplus">C++ Programming</option>
+                      <option value="csharp">C# Programming</option>
+                      <option value="javascript">JavaScript Programming</option>
+                      <option value="swift">Swift Programming</option>
+                      <option value="go">Go Programming</option>
+                    </select> <br>
+                </div>
+
+                <div class="input-box9">                  
+                    <label for="proskill" style="font-weight: 700; color: rgb(10, 10, 77) !important; ">Which skill you already have? *</label> <br>
+                    <input type="checkbox" id="html" name="html" value="HTML" style="margin-left: 7px;">
+                    <label for="HTML"> HTML</label>
+                    <input type="checkbox" id="css" name="css" value="CSS">
+                    <label for="css"> CSS</label>
+                    <input type="checkbox" id="bootstrap" name="bootstrap" value="Bootstrap">
+                    <label for="bootstrap"> Bootstrap</label>
+                    <input type="checkbox" id="javascript" name="javascript" value="JavaScript">
+                    <label for="javascript"> JavaScript</label>
+                    <input type="checkbox" id="jQuery" name="jQuery" value="jQuery">
+                    <label for="jQuery"> jQuery</label> <br>
+                </div>
+
+                <div class="input-box10">
+                    <label for="files">Add Your CV: *</label> <br>
+                    <input type="file" id="files" name="files" multiple><br><br>
+                </div>
+
+                <div class="input-box11">
+                    <input type="submit" value="Submit" class="btn-grad">
+                    <input type="reset" value="Reset" class="btn-grad">
+                </div>
+
+                <!--==|| Social Icon Start ||==-->
+                <div class="social-icon">
+                    <ul>
+                        <li><a href="https://www.facebook.com/obaedul.islam.webdeveloper" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/obaeduiIslam" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCswRRFvrSGSFQBi8HN9XqwQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/obaedul_islam/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/obaedulislam/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <!--==|| Social Icon End ||==-->
+
+        </form>
+    </div>
+</body>
+</html>
